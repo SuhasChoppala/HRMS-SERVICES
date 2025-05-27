@@ -2,7 +2,7 @@
   "employees": [
     {
       "id": "1",
-      "name": "Sussumama",
+      "name": "Suhas",
       "password": "123",
       "contact_details": {
         "phoneNumber": "555-234-5678",
