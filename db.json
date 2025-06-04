@@ -2,7 +2,7 @@
   "employees": [
     {
       "id": "1",
-      "name": "Suhas",
+      "name": "Steve",
       "password": "123",
       "contact_details": {
         "phoneNumber": "555-234-5678",
@@ -176,7 +176,7 @@
     },
     {
       "id": "4",
-      "name": "Suhas Choppala",
+      "name": "Max",
       "password": "123",
       "contact_details": {
         "phoneNumber": "1234567890",
@@ -294,7 +294,7 @@
   "admins": [
     {
       "id": "1",
-      "name": "Suhas Choppala",
+      "name": "Peter",
       "email": "123@gmail.com",
       "password": "123"
     },
@@ -874,7 +874,7 @@
     {
       "id": "11",
       "employee_id": "1",
-      "message": "Relief Officer Suhas Choppala has recalled your leave and your new resumption date is 14-05-2025. Please check the Leave Dashboard."
+      "message": "Relief Officer Peter has recalled your leave and your new resumption date is 14-05-2025. Please check the Leave Dashboard."
     }
   ],
   "leavesApplications": [
