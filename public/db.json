@@ -1,74 +1,989 @@
 {
-  "users": [
+  "employees": [
     {
       "id": "1",
-      "username": "Steve",
+      "name": "Steve",
       "password": "123",
-      "email": "test@gmail.com",
-      "created_at": "2025-06-22T11:52:29.576Z",
-      "updated_at": "2025-06-22T11:52:29.577Z"
+      "contact_details": {
+        "phoneNumber": "555-234-5678",
+        "phoneNumber2": "555-999-1111",
+        "email": "s1@gmail.com",
+        "address": "456 Elm St, Metropolis",
+        "state": "New York",
+        "city": "Metropolis"
+      },
+      "educational_qualifications": {
+        "academic_records": [
+          {
+            "id": "1",
+            "institution_name": "ABC Institute of Technology",
+            "degree": "BTech",
+            "department": "Computer Science",
+            "enroll_date": "August 2014",
+            "passout_date": "May 2018"
+          }
+        ],
+        "professional_qualifications": [
+          {
+            "id": "1",
+            "company_name": "Infosys",
+            "location": "Bangalore",
+            "start_date": "July 2018",
+            "end_date": "July 2019"
+          }
+        ]
+      },
+      "guarantor_details": [
+        {
+          "id": "1",
+          "guarantors_name": "Ravi Kumar",
+          "occupation": "Bank Manager",
+          "mobile_number": "9876543210"
+        }
+      ],
+      "financial_details": [
+        {
+          "id": "1",
+          "bank_name": "HDFC Bank",
+          "account_number": "123456789012",
+          "account_holder_name": "Suhas"
+        }
+      ],
+      "department": "IT",
+      "job_title": "Software Developer",
+      "start_date": "01-01-2020",
+      "category": "Full Time",
+      "gender": "Male",
+      "salary_amount": 75000,
+      "salary_status": "Paid",
+      "date_of_birth": "20-04-1997"
     },
     {
       "id": "2",
-      "username": "name",
-      "password": "123456",
-      "email": "test2@gmail.com",
-      "created_at": "2025-06-22T11:52:29.576Z",
-      "updated_at": "2025-06-22T11:52:29.577Z"
+      "name": "Samantha Johnson",
+      "password": "123",
+      "contact_details": {
+        "phoneNumber": "555-234-5678",
+        "phoneNumber2": "555-888-1234",
+        "email": "s2@gmail.com",
+        "address": "456 Elm St, Metropolis",
+        "state": "California",
+        "city": "Los Angeles"
+      },
+      "educational_qualifications": {
+        "academic_records": [
+          {
+            "id": "1",
+            "institution_name": "University of California",
+            "degree": "BDesign",
+            "department": "Visual Communication",
+            "enroll_date": "August 2012",
+            "passout_date": "May 2016"
+          }
+        ],
+        "professional_qualifications": [
+          {
+            "id": "1",
+            "company_name": "Adobe Inc.",
+            "location": "San Jose",
+            "start_date": "Jan 2020",
+            "end_date": "Jan 2022"
+          }
+        ]
+      },
+      "guarantor_details": [
+        {
+          "id": "1",
+          "guarantors_name": "Linda Johnson",
+          "occupation": "Interior Designer",
+          "mobile_number": "9871234560"
+        }
+      ],
+      "financial_details": [
+        {
+          "id": "1",
+          "bank_name": "Wells Fargo",
+          "account_number": "998877665544",
+          "account_holder_name": "Samantha Johnson"
+        }
+      ],
+      "department": "Design",
+      "job_title": "UX/UI Designer",
+      "start_date": "15-02-2022",
+      "category": "Remote",
+      "gender": "Female",
+      "salary_amount": 65000,
+      "salary_status": "Not Paid",
+      "date_of_birth": "01-05-1995"
+    },
+    {
+      "id": "3",
+      "name": "Michael Brown",
+      "password": "123",
+      "contact_details": {
+        "phoneNumber": "555-345-6789",
+        "phoneNumber2": "555-777-0000",
+        "email": "m1@gmail.com",
+        "address": "789 Oak St, Gotham",
+        "state": "Illinois",
+        "city": "Chicago"
+      },
+      "educational_qualifications": {
+        "academic_records": [
+          {
+            "id": "1",
+            "institution_name": "MIT",
+            "degree": "BSc Computer Science",
+            "department": "Computer Science",
+            "enroll_date": "August 2010",
+            "passout_date": "May 2014"
+          }
+        ],
+        "professional_qualifications": [
+          {
+            "id": "1",
+            "company_name": "Google",
+            "location": "Mountain View",
+            "start_date": "July 2014",
+            "end_date": "June 2018"
+          }
+        ]
+      },
+      "guarantor_details": [
+        {
+          "id": "1",
+          "guarantors_name": "David Brown",
+          "occupation": "Accountant",
+          "mobile_number": "9873456789"
+        }
+      ],
+      "financial_details": [
+        {
+          "id": "1",
+          "bank_name": "Chase Bank",
+          "account_number": "445566778899",
+          "account_holder_name": "Michael Brown"
+        }
+      ],
+      "department": "IT",
+      "job_title": "Backend Developer",
+      "start_date": "01-07-2023",
+      "category": "Full Time",
+      "gender": "Male",
+      "salary_amount": 90000,
+      "salary_status": "Paid",
+      "date_of_birth": "22-06-1993"
+    },
+    {
+      "id": "4",
+      "name": "Max",
+      "password": "123",
+      "contact_details": {
+        "phoneNumber": "1234567890",
+        "phoneNumber2": "9876543210",
+        "email": "s4@gmail.com",
+        "address": "123 Tech Park, Hyderabad",
+        "state": "Telangana",
+        "city": "Hyderabad"
+      },
+      "educational_qualifications": {
+        "academic_records": [
+          {
+            "id": "1",
+            "institution_name": "IIT Tirupati",
+            "degree": "BTech",
+            "department": "Mechanical Engineering",
+            "enroll_date": "August 2019",
+            "passout_date": "May 2023"
+          }
+        ],
+        "professional_qualifications": [
+          {
+            "id": "1",
+            "company_name": "Digital Lync",
+            "location": "Hyderabad",
+            "start_date": "May 2024",
+            "end_date": "Sep 2024"
+          }
+        ]
+      },
+      "guarantor_details": [
+        {
+          "id": "1",
+          "guarantors_name": "Ramesh Choppala",
+          "occupation": "Businessman",
+          "mobile_number": "9998887776"
+        }
+      ],
+      "financial_details": [
+        {
+          "id": "1",
+          "bank_name": "State Bank of India",
+          "account_number": "123400005678",
+          "account_holder_name": "Suhas Choppala"
+        }
+      ],
+      "department": "IT",
+      "job_title": "Frontend Developer",
+      "start_date": "10-06-2023",
+      "category": "Remote",
+      "gender": "Male",
+      "salary_amount": 85000,
+      "salary_status": "Paid",
+      "date_of_birth": "05-05-2001"
+    },
+    {
+      "id": "5",
+      "name": "John Smith",
+      "password": "123",
+      "contact_details": {
+        "phoneNumber": "555-567-8901",
+        "phoneNumber2": "555-111-2222",
+        "email": "j1@gmail.com",
+        "address": "202 Pine St, Central City",
+        "state": "Ohio",
+        "city": "Central City"
+      },
+      "educational_qualifications": {
+        "academic_records": [
+          {
+            "id": "1",
+            "institution_name": "National School of Design",
+            "degree": "BFA",
+            "department": "Design",
+            "enroll_date": "July 2008",
+            "passout_date": "May 2012"
+          }
+        ],
+        "professional_qualifications": [
+          {
+            "id": "1",
+            "company_name": "Canva",
+            "location": "Austin",
+            "start_date": "April 2015",
+            "end_date": "April 2019"
+          }
+        ]
+      },
+      "guarantor_details": [
+        {
+          "id": "1",
+          "guarantors_name": "Paul Smith",
+          "occupation": "Teacher",
+          "mobile_number": "9876541200"
+        }
+      ],
+      "financial_details": [
+        {
+          "id": "1",
+          "bank_name": "Bank of America",
+          "account_number": "101010101010",
+          "account_holder_name": "John Smith"
+        }
+      ],
+      "department": "Design",
+      "job_title": "Graphic Designer",
+      "start_date": "12-03-2021",
+      "category": "Full Time",
+      "gender": "Male",
+      "salary_amount": 60000,
+      "salary_status": "Not Paid",
+      "date_of_birth": "30-01-1990"
     }
   ],
-  "assets": [
+  "admins": [
     {
       "id": "1",
-      "user_id": 1,
-      "asset_name": "Dell Latitude 7430 Laptop",
-      "category_id": 1,
-      "status_id": 2,
-      "purchase_date": "2023-04-10",
-      "warranty_expiry_date": "2026-04-10",
-      "asset_image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLvTMOP6GC6kAtQF65Z4IuH4MezBBZTGvNNasmpheNW8qltpysvdbHfg5juOx5nv1lBXI&usqp=CAU",
-      "created_at": "2023-04-10T10:15:00Z",
-      "updated_at": "2025-06-22T13:42:33.339Z"
+      "name": "Peter",
+      "email": "123@gmail.com",
+      "password": "123"
     },
     {
       "id": "2",
-      "user_id": 1,
-      "asset_name": "Samsung 27-inch Monitor",
-      "category_id": 1,
-      "status_id": 2,
-      "purchase_date": "2022-11-05",
-      "warranty_expiry_date": "",
-      "asset_image_url": "https://img.freepik.com/free-photo/digital-device-eletronic-networking-media_53876-31695.jpg",
-      "created_at": "2022-11-05T14:30:00Z",
-      "updated_at": "2025-06-22T13:44:37.971Z"
+      "name": "John Doe",
+      "email": "john@gmail.com",
+      "password": "123"
     }
   ],
-  "asset_categories": [
+  "applied_jobs": [
     {
-      "category_id": 1,
-      "category_name": "laptop"
+      "id": "1",
+      "employee_id": "1",
+      "job_title": "Sales Executive",
+      "company_name": "Access Bank",
+      "applied_days_ago": 5
     },
     {
-      "category_id": 2,
-      "category_name": "phone"
+      "id": "2",
+      "employee_id": "1",
+      "job_title": "Software Engineer",
+      "company_name": "Microsoft",
+      "applied_days_ago": 25
     },
     {
-      "category_id": 3,
-      "category_name": "bike"
+      "id": "3",
+      "employee_id": "2",
+      "job_title": "User Experience Designer",
+      "company_name": "Paystack",
+      "applied_days_ago": 12
     },
     {
-      "category_id": 4,
-      "category_name": "furniture"
+      "id": "4",
+      "employee_id": "2",
+      "job_title": "Product Designer",
+      "company_name": "Uber",
+      "applied_days_ago": 8
+    },
+    {
+      "id": "5",
+      "employee_id": "3",
+      "job_title": "Backend Developer",
+      "company_name": "Accenture",
+      "applied_days_ago": 10
+    },
+    {
+      "id": "6",
+      "employee_id": "3",
+      "job_title": "Machine Learning Engineer",
+      "company_name": "Google",
+      "applied_days_ago": 15
+    },
+    {
+      "id": "7",
+      "employee_id": "4",
+      "job_title": "Frontend Developer",
+      "company_name": "Tata Consultancy Services",
+      "applied_days_ago": 3
+    },
+    {
+      "id": "8",
+      "employee_id": "4",
+      "job_title": "Data Scientist",
+      "company_name": "Amazon",
+      "applied_days_ago": 7
+    },
+    {
+      "id": "9",
+      "employee_id": "5",
+      "job_title": "Graphic Designer",
+      "company_name": "Flipkart",
+      "applied_days_ago": 18
+    },
+    {
+      "id": "10",
+      "employee_id": "5",
+      "job_title": "Marketing Specialist",
+      "company_name": "Meta",
+      "applied_days_ago": 2
     }
   ],
-  "asset_statuses": [
+  "todos": [
     {
-      "status_id": 1,
-      "category_name": "active"
+      "id": "1",
+      "employee_id": "1",
+      "task_name": "Fix login bug in auth module",
+      "isCompleted": true
     },
     {
-      "status_id": 2,
-      "category_name": "sold"
+      "id": "2",
+      "employee_id": "1",
+      "task_name": "Update project documentation",
+      "isCompleted": false
+    },
+    {
+      "id": "3",
+      "employee_id": "1",
+      "task_name": "Review pull requests",
+      "isCompleted": false
+    },
+    {
+      "id": "4",
+      "employee_id": "1",
+      "task_name": "Add unit tests to user service",
+      "isCompleted": true
+    },
+    {
+      "id": "5",
+      "employee_id": "1",
+      "task_name": "Refactor dashboard code",
+      "isCompleted": true
+    },
+    {
+      "id": "6",
+      "employee_id": "2",
+      "task_name": "Create wireframes for new landing page",
+      "isCompleted": true
+    },
+    {
+      "id": "7",
+      "employee_id": "2",
+      "task_name": "Review UI components",
+      "isCompleted": false
+    },
+    {
+      "id": "8",
+      "employee_id": "2",
+      "task_name": "Redesign user onboarding screens",
+      "isCompleted": false
+    },
+    {
+      "id": "9",
+      "employee_id": "2",
+      "task_name": "Test dark mode layout",
+      "isCompleted": true
+    },
+    {
+      "id": "10",
+      "employee_id": "2",
+      "task_name": "Prepare presentation for design review",
+      "isCompleted": false
+    },
+    {
+      "id": "11",
+      "employee_id": "3",
+      "task_name": "Optimize API performance",
+      "isCompleted": false
+    },
+    {
+      "id": "12",
+      "employee_id": "3",
+      "task_name": "Refactor user service",
+      "isCompleted": false
+    },
+    {
+      "id": "13",
+      "employee_id": "3",
+      "task_name": "Fix database migration scripts",
+      "isCompleted": true
+    },
+    {
+      "id": "14",
+      "employee_id": "3",
+      "task_name": "Research new caching strategies",
+      "isCompleted": false
+    },
+    {
+      "id": "15",
+      "employee_id": "3",
+      "task_name": "Setup Redis for session storage",
+      "isCompleted": false
+    },
+    {
+      "id": "16",
+      "employee_id": "4",
+      "task_name": "Implement responsive navbar",
+      "isCompleted": true
+    },
+    {
+      "id": "17",
+      "employee_id": "4",
+      "task_name": "Fix layout issues on dashboard",
+      "isCompleted": false
+    },
+    {
+      "id": "18",
+      "employee_id": "4",
+      "task_name": "Create reusable input components",
+      "isCompleted": false
+    },
+    {
+      "id": "19",
+      "employee_id": "4",
+      "task_name": "Update Tailwind config",
+      "isCompleted": true
+    },
+    {
+      "id": "20",
+      "employee_id": "4",
+      "task_name": "Integrate Chart.js for reports",
+      "isCompleted": false
+    },
+    {
+      "id": "21",
+      "employee_id": "5",
+      "task_name": "Design banners for new campaign",
+      "isCompleted": false
+    },
+    {
+      "id": "22",
+      "employee_id": "5",
+      "task_name": "Update brand guidelines",
+      "isCompleted": true
+    },
+    {
+      "id": "23",
+      "employee_id": "5",
+      "task_name": "Design social media posts",
+      "isCompleted": false
+    },
+    {
+      "id": "24",
+      "employee_id": "5",
+      "task_name": "Create logo variations",
+      "isCompleted": false
+    },
+    {
+      "id": "25",
+      "employee_id": "5",
+      "task_name": "Collaborate with UX team on UI assets",
+      "isCompleted": true
+    }
+  ],
+  "announcements": [
+    {
+      "id": "1",
+      "title": "Holiday Notice",
+      "description": "The office will remain closed on April 18th for Good Friday. Please plan your tasks accordingly.",
+      "date": "2025-04-15",
+      "type": "info"
+    },
+    {
+      "id": "2",
+      "title": "Payroll Update",
+      "description": "March salaries will be credited by April 5th. Please reach out to HR for any discrepancies.",
+      "date": "2025-04-02",
+      "type": "finance"
+    },
+    {
+      "id": "3",
+      "title": "New Joiners",
+      "description": "We welcome 5 new employees to the engineering and design teams. Please check the internal directory for introductions.",
+      "date": "2025-04-01",
+      "type": "people"
+    },
+    {
+      "id": "4",
+      "title": "Policy Change",
+      "description": "Updated leave policy effective from May 1st. Kindly review the changes on the HRMS portal.",
+      "date": "2025-04-10",
+      "type": "alert"
+    },
+    {
+      "id": "5",
+      "title": "Wellness Webinar",
+      "description": "Join us for a wellness session on managing work stress, scheduled on April 20th at 4 PM.",
+      "date": "2025-04-13",
+      "type": "event"
+    }
+  ],
+  "payslip_breakdown": [
+    {
+      "employee_id": "1",
+      "breakdown": [
+        {
+          "Earnings": "Basic Wage",
+          "Amount": 150000,
+          "Deductions": 30000,
+          "Total": 120000
+        },
+        {
+          "Earnings": "Tax",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Pension",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Total Earnings",
+          "Amount": 150000,
+          "Deductions": 36000,
+          "Total": 114000
+        }
+      ],
+      "id": "abdf"
+    },
+    {
+      "employee_id": "2",
+      "breakdown": [
+        {
+          "Earnings": "Basic Wage",
+          "Amount": 150000,
+          "Deductions": 30000,
+          "Total": 120000
+        },
+        {
+          "Earnings": "Tax",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Pension",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Total Earnings",
+          "Amount": 150000,
+          "Deductions": 36000,
+          "Total": 114000
+        }
+      ],
+      "id": "55b4"
+    },
+    {
+      "employee_id": "3",
+      "breakdown": [
+        {
+          "Earnings": "Basic Wage",
+          "Amount": 150000,
+          "Deductions": 30000,
+          "Total": 120000
+        },
+        {
+          "Earnings": "Tax",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Pension",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Total Earnings",
+          "Amount": 150000,
+          "Deductions": 36000,
+          "Total": 114000
+        }
+      ],
+      "id": "a706"
+    },
+    {
+      "employee_id": "4",
+      "breakdown": [
+        {
+          "Earnings": "Basic Wage",
+          "Amount": 150000,
+          "Deductions": 30000,
+          "Total": 120000
+        },
+        {
+          "Earnings": "Tax",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Pension",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Total Earnings",
+          "Amount": 150000,
+          "Deductions": 36000,
+          "Total": 114000
+        }
+      ],
+      "id": "e657"
+    },
+    {
+      "employee_id": "5",
+      "breakdown": [
+        {
+          "Earnings": "Basic Wage",
+          "Amount": 150000,
+          "Deductions": 30000,
+          "Total": 120000
+        },
+        {
+          "Earnings": "Tax",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Pension",
+          "Amount": 15000,
+          "Deductions": 3000,
+          "Total": 12000
+        },
+        {
+          "Earnings": "Total Earnings",
+          "Amount": 150000,
+          "Deductions": 36000,
+          "Total": 114000
+        }
+      ],
+      "id": "0867"
+    }
+  ],
+  "performance_appraisal": [
+    {
+      "id": "0",
+      "employee_id": "1",
+      "from": "April 2024",
+      "to": "April 2025",
+      "performance_values": [
+        6.5,
+        7.2,
+        6.8,
+        8.1,
+        7.9,
+        7.3,
+        6.2,
+        6.9,
+        8.5,
+        9,
+        7.8,
+        8.2
+      ]
+    },
+    {
+      "id": "1",
+      "employee_id": "2",
+      "from": "April 2024",
+      "to": "April 2025",
+      "performance_values": [
+        5,
+        5.5,
+        6,
+        5.8,
+        6.2,
+        6.5,
+        6.1,
+        5.9,
+        6.4,
+        6.7,
+        6.3,
+        6.6
+      ]
+    },
+    {
+      "id": "2",
+      "employee_id": "3",
+      "from": "April 2024",
+      "to": "April 2025",
+      "performance_values": [
+        7.5,
+        8,
+        7.2,
+        6.8,
+        7.1,
+        7.6,
+        8.2,
+        7.9,
+        7.4,
+        8,
+        8.3,
+        8.5
+      ]
+    },
+    {
+      "id": "3",
+      "employee_id": "4",
+      "from": "April 2024",
+      "to": "April 2025",
+      "performance_values": [
+        6,
+        6.3,
+        6.5,
+        6.9,
+        7.1,
+        7.4,
+        7.6,
+        7.3,
+        6.8,
+        7.2,
+        7,
+        7.5
+      ]
+    },
+    {
+      "id": "4",
+      "employee_id": "5",
+      "from": "April 2024",
+      "to": "April 2025",
+      "performance_values": [
+        4.5,
+        4.8,
+        5.1,
+        4.9,
+        5,
+        5.4,
+        5.7,
+        5.3,
+        5.8,
+        6,
+        6.2,
+        6.1
+      ]
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "message": "Your project deadline is approaching."
+    },
+    {
+      "id": "2",
+      "employee_id": "1",
+      "message": "Kindly update your timesheet."
+    },
+    {
+      "id": "3",
+      "employee_id": "2",
+      "message": "Please submit the design review by EOD."
+    },
+    {
+      "id": "4",
+      "employee_id": "2",
+      "message": "Client feedback has been shared with you."
+    },
+    {
+      "id": "5",
+      "employee_id": "3",
+      "message": "Server maintenance is scheduled for this weekend."
+    },
+    {
+      "id": "6",
+      "employee_id": "3",
+      "message": "Please review the new API documentation."
+    },
+    {
+      "id": "7",
+      "employee_id": "4",
+      "message": "Your UI components look great. Keep it up!"
+    },
+    {
+      "id": "8",
+      "employee_id": "4",
+      "message": "Don't forget the frontend sync at 5 PM."
+    },
+    {
+      "id": "9",
+      "employee_id": "5",
+      "message": "New branding assets have been uploaded."
+    },
+    {
+      "id": "10",
+      "employee_id": "5",
+      "message": "Reminder: Graphic design team standup at 11 AM."
+    },
+    {
+      "id": "11",
+      "employee_id": "1",
+      "message": "Relief Officer Peter has recalled your leave and your new resumption date is 14-05-2025. Please check the Leave Dashboard."
+    },
+    {
+      "id": "12",
+      "employee_id": "1",
+      "message": "Relief Officer Peter has recalled your leave and your new resumption date is 20-06-2025. Please check the Leave Dashboard."
+    }
+  ],
+  "leavesApplications": [
+    {
+      "id": "1",
+      "employee_id": "1",
+      "name": "Steve",
+      "leave_type": "Sick",
+      "start_date": "09-05-2025",
+      "end_date": "13-05-2025",
+      "duration": 5,
+      "resumption_date": "14-05-2025",
+      "reason": "Fever and fatigue",
+      "status": "Recalled"
+    },
+    {
+      "id": "2",
+      "employee_id": "1",
+      "name": "Steve",
+      "leave_type": "Maternity",
+      "start_date": "01-04-2025",
+      "end_date": "19-06-2025",
+      "duration": 6,
+      "resumption_date": "20-06-2025",
+      "reason": "Postnatal checkup and rest",
+      "status": "Declined"
+    },
+    {
+      "id": "3",
+      "employee_id": "1",
+      "name": "Steve",
+      "leave_type": "Compassionate",
+      "start_date": "10-04-2025",
+      "end_date": "15-04-2025",
+      "duration": "6",
+      "resumption_date": "16-04-2025",
+      "reason": "Family emergency",
+      "status": "Declined"
+    },
+    {
+      "id": "4",
+      "employee_id": "1",
+      "name": "Steve",
+      "leave_type": "Annual",
+      "start_date": "01-06-2025",
+      "end_date": "10-06-2025",
+      "duration": "10",
+      "resumption_date": "11-06-2025",
+      "reason": "Vacation trip",
+      "status": "Declined"
+    },
+    {
+      "id": "5",
+      "employee_id": "1",
+      "name": "Steve",
+      "leave_type": "Annual",
+      "start_date": "13-05-2025",
+      "end_date": "16-05-2025",
+      "duration": "4",
+      "resumption_date": "17-05-2025",
+      "reason": "personal work",
+      "status": "Accepted"
+    },
+    {
+      "id": "6",
+      "employee_id": "1",
+      "name": "Steve",
+      "leave_type": "Annual",
+      "start_date": "14-06-2025",
+      "end_date": "22-06-2025",
+      "duration": "9",
+      "resumption_date": "23-06-2025",
+      "reason": "testing",
+      "status": "Recalled"
+    }
+  ],
+  "leave_recalls": [
+    {
+      "id": "1",
+      "employee_name": "Steve",
+      "employee_id": "1",
+      "leave_id": "1",
+      "resumption_date": "17-05-2025",
+      "new_resumption_date": "14-05-2025",
+      "days_remaining": "4",
+      "reason_for_recall": "meeting scheduled",
+      "releif_officer": "Peter",
+      "status": "Approved",
+      "reason_for_decline": "",
+      "recall_decision": "responded"
+    },
+    {
+      "id": "2",
+      "employee_name": "Steve",
+      "employee_id": "1",
+      "leave_id": "6",
+      "resumption_date": "23-06-2025",
+      "new_resumption_date": "20-06-2025",
+      "days_remaining": "4",
+      "reason_for_recall": "the project deadline had been preponed and immediate deployment required",
+      "releif_officer": "Peter",
+      "status": "Approved",
+      "reason_for_decline": "",
+      "recall_decision": "responded"
     }
   ]
 }
